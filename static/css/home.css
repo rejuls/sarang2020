@@ -1,0 +1,45 @@
+.login-button{
+  display: block;
+}
+
+
+.intro{
+  background: url(../images/beckham.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover ;
+}
+
+.score{
+  font-size:1000%;
+}
+.scoret{
+  font-size:400%;
+}
+
+@media (max-width: 767px) {
+.intro{
+  background: url(../images/beckham.jpg) no-repeat center center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover ;
+}
+h1{
+margin:0 0 20px;
+font-size: 25px;
+}
+h4{
+  font-size: 15px;
+  margin:0 0 20px;
+}
+.score{
+  font-size:400%;
+}
+.scoret{
+  font-size:300%;
+}
+}
